@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    background-color: #bbd8ef;
+   
+}
+
+.first-txt {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35pt;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: rgb(0, 26, 255);
+}
+
+.second-txt {
+    font-family: Garamond, serif;
+    position: absolute;
+    color: rgb(255, 106, 0);
+    font-weight: bolder;
+    top: 150px;
+    left: 450px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.cloud2{
+    position: absolute;
+    top: 175px;
+    left: 325px;
+}
+
+.cloud3{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+}
+
+.welcome{
+    border-style: outset;
+    text-align: center;
+    border-width: 15px;
+    padding-top: 10px;
+}
+
+.skills{
+    border-style: outset;
+    border-width: 15px;
+    margin:0px;
+    padding-left: 600px;
+}
+
+.leadership{
+    border-style: outset;
+    border-width: 15px;
+}
+.leadership dd {
+    position: relative;
+    left: 2%;
+}
+.skillSection {
+    border-style: outset;
+    border-width: 15px;
+    padding-left: 550px;
+}
+
+.button{
+    padding-top: 15px;
+    padding-left: 37.5%;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+}
+   
+
+a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+  }
+
+a:link {
+    color: rgb(39, 179, 29);
+    text-decoration: none;
+    
+  }
+
+.right {
+        float: right;
+        margin-left: 10px;
+        padding-right: 600px;
+        padding-top: 20px;
+    }
+
+.left {
+        float: left;
+        margin-right: 10px;
+        padding-left: 400px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+
+    .getInTouch{
+        position: absolute;
+        color: rgb(255, 0, 0);
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .contactName{
+        font-family: 'Brush Script MT', cursive;
+        font-size: 30pt;
+        position: absolute;
+        top: 15px;
+        left: 565px;
+        bottom: 55px;
+        color: rgb(0, 26, 255);
+    }
+
+    .address{
+        font-family:fantasy;
+        color: white;
+        font-size: 15pt;
+        position: absolute;
+        top: 165px;
+        left: 655px;
+        text-align: center;
+        border-bottom: dotted;
+        border-width: 12px;
+    }
+
+    .card {
+        background-color:blue;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 25%;
+        padding: 2%;
+        margin-top: 25%;
+        margin-left: 35%;
+        border-radius: 5px;
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: red;
+        color: rgb(2, 2, 2);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: lightcoral;
+      }
+
